@@ -199,6 +199,39 @@ All students will be provided individual accounts on a multi-core and GPGPU mach
 
 * The available machines are equiped with top-end A100 GPUs & two AMD EPYC 7352 24-Core CPUs (total 96 hardware threads). Login to such machines will become operational after 2nd of September.   You need to be [connected to the VPN](https://github.com/diku-dk/howto/blob/main/vpn.md) in order to access the machines.
 
+* After you are connected to VPN, in order to access the machines you will need to login to the Hendrix/Image cluster, and then to ssh (from there) to the `hendrixfut01fl`, `hendrixfut02fl`, or `hendrixfut03fl` servers; the first and third are equipped with NVIDIA A100 GPU, on which you can run CUDA programs, and the second with an AMD GPU, on which you cannot run CUDA programs. 
+
+Comprehensive info on the Hendrix cluster is available [here](https://diku-dk.github.io/wiki/slurm-cluster) and [some other hints here](https://github.com/diku-dk/howto/blob/main/servers.md)
+
+Of note, you should put the following in your `~/.ssh/config` (Linux/MacOS) or in `C:/Users/YOUR_WINDOWS_USER/.ssh/config` (Windows, a simple text file with no file ending!):
+
+```
+Host hendrix
+    HostName hendrixgate
+    User <kuid>
+    StrictHostKeyChecking no
+    CheckHostIP no
+    UserKnownHostsFile=/dev/null
+```
+
+Then you can ssh to hendrix
+
+```bash
+$ ssh hendrix
+````
+
+and from there to
+
+```bash
+$ ssh -l <ku_id> futharkhpa03fl.unicph.domain
+```
+
+and from there to one of the servers, for example:
+
+```bash
+$ ssh hendrixfut03fl
+```
+
 <!---
 
 * Once you are connected to VPN you may ssh directly, for example, to `futharkhpa03fl.unicph.domain` with your ku-id and corresponding password, and then you probably need to modify your `.bashrc` file.  More hardware and software (installation) documentation is available [here](https://github.com/diku-dk/howto/blob/main/servers.md)
@@ -211,7 +244,11 @@ $ ssh -l <ku_id> futharkhpa03fl.unicph.domain
 
 -->
  
-For CUDA to work, you may need to add the following to your `$HOME/.bash_profile` or `$HOME/.bashrc` file (on one of the machines, since they are connected by NFS):
+For CUDA to work, you may need 
+
+* to run `$module load cuda`
+
+* The following may be wrong as I did not managed to login to the machines yet: and perhaps to add the following to your `$HOME/.bash_profile` or `$HOME/.bashrc` file:
 
 ```bash
 export CPATH=/usr/local/cuda/include:$CPATH
