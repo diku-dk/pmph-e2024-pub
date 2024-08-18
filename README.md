@@ -218,12 +218,6 @@ Then you can ssh to hendrix
 
 ```bash
 $ ssh hendrix
-````
-
-and from there to
-
-```bash
-$ ssh -l <ku_id> futharkhpa03fl.unicph.domain
 ```
 
 and from there to one of the servers, for example:
