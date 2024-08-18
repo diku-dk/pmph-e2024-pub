@@ -54,9 +54,9 @@ answers to some individual questions, and this will count for 60\% of
 your final grade.
 
 The first two "weekly-assignments" (W-assignments) are tentatively planned
-to be published on Wednesday of the first and second. The third last assignment
-will probably be published on Monday of the fourth week; see the course 
-schedule section below.
+to be published on Wednesday of the first and second week. The third (last)
+assignment will probably be published on Monday of the fourth week; see the 
+course schedule section below.
 If a serious attempt was made but the solution is not
 satisfactory (or simply if you want to improve your assignment, hence grade),
 an updated solution should be resubmitted ONCE, one week after the date when
