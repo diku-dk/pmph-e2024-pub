@@ -76,13 +76,13 @@ The final evaluation will take up to 20 minutes per student, but the whole group
 
 Teacher: **[Cosmin Oancea](mailto:cosmin.oancea@diku.dk)**.
 
-Teaching assistant (TA): **[Anders Holst](mailto:anersholst@gmail.com)**. 
+Teaching assistants (TAs): **[Anders Holst](mailto:anersholst@gmail.com)** and **[Nikolaj Hey Hinnerskov](mailto:nihi@di.ku.dk)**
 
 The plan is that the teacher will conduct the lectures and labs.
-The TAs will be in charge of grading and providing good feedback to the 
+Anders will be in charge of grading and providing good feedback to the 
 weekly assignments and of patrolling the Absalon/Discord discussion forums.
-Since this year we have a record-high number of students, Anders will also 
-attend some labs.
+Since this year we have a record-high number of students, Nikolaj will help 
+assisting you during labs.
 
 ### Course Tracks and Resources
 
@@ -110,10 +110,10 @@ the lab sessions.
 | --- | --- | --- | --- |
 | 02/09 | 13:00-15:00 | [Intro, Hardware Trends and List Homomorphisms (LH - SFT)](slides/L1-Intro-Org-LH.pdf), Chapters 1 and 2 in Lecture Notes | Facultative material: [Sergei Gorlatch, "Systematic Extraction and Implementation of Divide-and-Conquer Parallelism"](material/List-Hom/GorlatchDivAndConq.pdf);  [Richard S. Bird, "An Introduction to the Theory of Lists"](material/List-Hom/BirdThofLists.pdf); [Jeremy Gibons, "The third homomorphism theorem"](material/List-Hom/GibonsThirdTheorem.pdf) |
 | 02/09 | 15:00-17:00 | [Gentle Intro to CUDA](slides/Lab1-CudaIntro.pdf) | [helper CUDA code](HelperCode/Lab-1-Cuda); as facultative material you may consult Cuda tutorials, for example [a very simple one is this one](https://developer.nvidia.com/blog/even-easier-introduction-cuda/) and [a more comprehensive one is this one](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-| 04/09 | 10:00-12:00 | [List Homomorphism (LH) & Parallel Basic Blocks (SFT)](slides/L2-Flatenning.pdf), Chapters 2 and 3 in Lecture Notes | Facultative material: [Various papers related to flattening, but which are not very accessible to students](material/Flattening) |
-| 04/09 | 13:00-15:00 | Lab: Futhark programming, First Weekly | [Futhark code related to the LH lecture](HelperCode/Lect-1-LH); facultative material: [Parallel Programming in Futhark](https://futhark-book.readthedocs.io/en/latest/), sections 1-4, |
+| 04/09 | 10:00-12:00 | [List Homomorphism (LH) & Parallel Basic Blocks (SFT)](slides/L2-Flatenning.pdf), Chapters 2 and 3 in [Lecture Notes](http://hjemmesider.diku.dk/~zgh600/Publications/lecture-notes-pmph.pdf) | Facultative material: [Various papers related to flattening, but which are not very accessible to students](material/Flattening) |
+| 04/09 | 13:00-15:00 | Lab: Futhark programming, First Weekly | [Futhark code related to the LH lecture](HelperCode/Lect-1-LH); as facultative material: [Parallel Programming in Futhark](https://futhark-book.readthedocs.io/en/latest/), sections 1-4, |
 | 04/09 | some time   | [**Assignment 1 handout**](weeklies/weekly-1/) | |
-| 09/09 | 13:00-15:00 | [Parallel Basic Block & Flattening Nested Parallelism (SFT)](slides/L2-Flatenning.pdf) | chapters 3 and 4 in Lecture Notes |
+| 09/09 | 13:00-15:00 | [Parallel Basic Block & Flattening Nested Parallelism (SFT)](slides/L2-Flatenning.pdf) | chapters 3 and 4 in [Lecture Notes](http://hjemmesider.diku.dk/~zgh600/Publications/lecture-notes-pmph.pdf) |
 | 09/09 | 15:00-17:00 | Lab: [Fun Quiz](slides/Lab2_presentation.pdf); | help with weekly |
 | 11/09 | 10:00-12:00 | [Flattening Nested Parallelism (SFT)](slides/L2-Flatenning.pdf) [In-Order Pipelines (HWD)](slides/L3-InOrderPipe.pdf)| Chapter 4 in Lecture Notes, Chapter 3 of "Parallel Computer Organization and Design" Book |
 | 11/09 | 13:00-15:00 | Lab: [Reduce and Scan in Cuda](slides/Lab2-RedScan.pdf) | discussing second weekly, helping with the first |
