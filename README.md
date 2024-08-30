@@ -100,7 +100,8 @@ via this GitHub page. (Assignment handin is still on Absalon.)
 
 ## Course Schedule
 
-This course schedule is tentative and will be updated as we go along.
+This course schedule is tentative and will be updated as we go along. 
+The links will become functional as we get near to the corresponding date.
 
 The lab sessions are aimed at providing help for the weeklies and
 group project.  Do not assume you can solve them without attending
