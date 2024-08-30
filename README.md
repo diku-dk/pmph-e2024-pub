@@ -1,11 +1,11 @@
 <!--
 # pmph-e2024-pub
 --PMPH course 2024-25 public repo
---> 
+-->
 
 # Programming Massively Parallel Hardware (PMPH), Block 1 2024
 
-### We are grateful to Nvidia for awarding us a teaching grant (for the PMPH and DPP courses) that consists of two A100 GPUs. These are now accessible on the server futharkhpa03fl.unicph.domain
+### We are grateful to Nvidia for awarding us a teaching grant (for the PMPH and DPP courses) that consists of two A100 GPUs. These are now accessible on the Hendrix GPU cluster.
 
 ## Course Structure
 
@@ -21,14 +21,14 @@ can concentrate on project work (to be announced).
 * Monday    13:00 - 15:00 (aud - NBB 2.0.G.064/070, Jagtvej 155)
 * Wednesday 10:00 - 12:00 (aud - NBB 2.0.G.064/070, Jagtvej 155)
 
-### Labs: 
+### Labs:
 
 * Monday    15:00 - 17:00 (aud - Aud 02 AKB, Universitetsparken 13)
 * Wednesday 13:00 - 15:00 (aud - NBB 2.0.G.064/070, Jagtvej 155)
 
 ### Flexible Schedule on Wednesday
 
-We have also reserved room (aud - NBB 2.0.G.064/070, Jagtvej 155) 
+We have also reserved room (aud - NBB 2.0.G.064/070, Jagtvej 155)
 for Wednesday 15:00 -- 17:00, so that we can stay over if necessary.
 
 
@@ -46,57 +46,51 @@ of streaming.
 Throughout the course, you will hand in three weekly assignments,
 which will count for 40\% of the final grade, as follows: the first two
 weeklies count for 10\% each and the third one is a "double" assignment
-and counts 20\%. In the last month (three weeks) of the course, you will 
-work on a group project (up to four students per group), and you will submit 
+and counts 20\%. In the last month (three weeks) of the course, you will
+work on a group project (up to four students per group), and you will submit
 the report and accompanying code. The group project will be presented
-orally at the exam (i.e., a slide-based presentation) together with the 
-answers to some individual questions, and this will count for 60\% of 
+orally at the exam (i.e., a slide-based presentation) together with the
+answers to some individual questions, and this will count for 60\% of
 your final grade.
 
-The first two "weekly-assignments" (W-assignments) are tentatively planned
-to be published on Wednesday of the first and second week. The third (last)
-assignment will probably be published on Monday of the fourth week; see the 
-course schedule section below.
-If a serious attempt was made but the solution is not
-satisfactory (or simply if you want to improve your assignment, hence grade),
-an updated solution should be resubmitted ONCE, one week after the date when
-the assignment was graded, i.e., returned to you.  Extensions may be
-possible, but your TA (Anders) will need to agree with it, so ask him.
+For more information on weekly assignments and (re-)submission, please see [this
+section](#weekly-assignments).
 
-For the group project no re-submission is possible; the deadline is the
-Friday just before the exam week. 
-(Extensions can be granted for up until Monday the exam week.)
+For the group project no re-submission is possible; the deadline is the Friday
+just before the exam week. Extension may be granted for up until Monday the
+exam week (this decision made entirely by Cosmin).
 
-The oral examination will be hold in the exam week (Wednesday, Thursday and Friday if necessary). 
+The oral examination will be hold in the exam week (Wednesday, Thursday and Friday if necessary).
 The final evaluation will take up to 20 minutes per student, but the whole group will be examined at a time (unless you wish otherwise).
 
-**Weekly and group assignment handin is still on Absalon.**
+**Weekly assignment and group project hand-in is still on Absalon.**
 
 ### Teachers
 
-Teacher: **[Cosmin Oancea](mailto:cosmin.oancea@diku.dk)**.
+Teacher: **Cosmin Oancea** ([cosmin.oancea@diku.dk](mailto:cosmin.oancea@diku.dk)).
 
-Teaching assistant (TA): **[Anders Holst](mailto:anersholst@gmail.com)**. 
+Teaching assistants (TAs):
+* **Anders Holst** ([lietzen@di.ku.dk](mailto:lietzen@di.ku.dk), Discord: `sortraev`),
+* **Nikolaj Hinnerskov** ([nihi@di.ku.dk](mailto:nihi@di.ku.dk), Discord: `nikolaj2978`).
 
-The plan is that the teacher will conduct the lectures and labs.
-The TAs will be in charge of grading and providing good feedback to the 
-weekly assignments and of patrolling the Absalon/Discord discussion forums.
-Since this year we have a record-high number of students, Anders will also 
-attend some labs.
+Cosmin will conduct lectures and lab sessions; Anders will be grading your
+weekly assignments and patrolling the online (Discord/Absalon) discussion forums;
+finally, Nikolaj will assist Cosmin in the lab sessions, and may supplement
+Anders on the discussion forums from time to time.
 
 ### Course Tracks and Resources
 
 All lectures and lab sessions will be delivered in English.  The
 assignments and projects will be posted in English, and while you can
 chose to hand in solutions in either English or Danish, English is
-preferred. All course material except for the hardware book is distributed 
-via this GitHub page. (Assignment handin is still on Absalon.)
+preferred. All course material except for the hardware book is distributed
+via this GitHub page (note: assignment handin is still on Absalon!).
 
 * **The hardware track** of the course covers (lecture) topics related to processor, memory and interconnect design, including cache coherency, which are selected from the book [Parallel Computer Organization and Design, by Michel Dubois, Murali Annavaram and Per Stenstrom,  ISBN 978-521-88675-8. Cambridge University Press, 2012](https://www.cambridge.org/dk/academic/subjects/engineering/computer-engineering/parallel-computer-organization-and-design?format=HB&isbn=9780521886758). The book is available at the local bookstore (biocenter). It is not mandatory to buy it---Cosmin thinks that it is possible to understand the material from the lecture slides, which are detailed enough---but also note that lecture notes are not provided for the hardware track, because of copyright issues.
 
 * **The software track** covers (lecture) topics related to parallel-programming models and recipes to recognize and optimize parallelism and locality of reference.  It demonstrates that compiler optimizations are essential to fully utilizing hardware, and that some optimizations can be implemented both in hardware and software, but with different pro and cons.   [The lecture notes are available here](http://hjemmesider.diku.dk/~zgh600/Publications/lecture-notes-pmph.pdf), and additional (facultative) reading material (papers) will be linked with individual lectures; see Course Schedule Section below.
 
-* **The lab track** teaches GPGPU hardware specifics and programming in Futhark, CUDA, and OpenMP. The intent is that the lab track applies in practice some of the parallel programming principles and optimizations techniques discussed in the software tracks. It is also intended to provide help for the weekly assignment, project, etc.
+* **The lab track** teaches GPGPU hardware specifics and programming in Futhark, CUDA, and OpenMP. The intent is that the lab track applies in practice some of the parallel programming principles and optimizations techniques discussed in the software tracks. It is also intended to provide help for the weekly assignment, group project, etc.
 
 ## Course Schedule
 
@@ -139,13 +133,13 @@ the lab sessions.
 | 14/10 | 15:00-17:00 | Autumn break (no lab) | |
 | 16/10 | 10:00-12:00 | Autumn break (no lecture) | |
 | 16/10 | 13:00-15:00 | Autumn break (no lab) |
-| 21/10 | 13:00-15:00 | No lecture | Upon request, may show up and help with group-project/weeklies |
-| 21/10 | 15:00-17:00 | Lab: Helping with group-project and weeklies | |
+| 21/10 | 13:00-15:00 | No lecture | Upon request, may show up and help with group project/weeklies |
+| 21/10 | 15:00-17:00 | Lab: Helping with group project and weeklies | |
 | 23/10 | 10:00-12:00 | [Inspector-Executor Techniques for Locality Optimizations (SFT)](slides/L8-LocOfRef.pdf) | [Various scientific papers](material/Opt-Loc-Ref) |
 | 23/10 | 13:00-15:00 | Lab: help with group project, weeklies |
 | 28/10 | 13:00-15:00 | Lecture: helping with group project and weeklies | you may read Tomasulo Algorithm (HWD) from Chapter 3 of "Parallel Computer Organization and Design" Book; [also on slides](slides/L9-OoOproc.pdf) |
 | 28/10 | 15:00-17:00 | Lab: Helping with group project, weeklies | |
-| 30/10 | 10:00-12:00 | Lecture: helping with group-project | |
+| 30/10 | 10:00-12:00 | Lecture: helping with group project | |
 | 30/10 | 13:00-15:00 | Lab: help with group project |
 | 06/11 | whole day | Oral exam | one four-person group will be examined in up to 1 hour and 20 minutes, but all of you will take two-to-three full days.|
 | 07/11 | whole day | Oral exam | |
@@ -153,14 +147,32 @@ the lab sessions.
 
 ## Weekly assignments
 
-The weekly assignments are **mandatory**, must be solved
-**individually**, and make up 40% of your final grade.  Submission is
-on Absalon.
+As mentioned, weekly assignments are **mandatory**, must be solved
+**individually**, and make up 40% of your final grade. The first two
+weekly assignments (W-assignments) are tentatively planned to be published on
+Wednesday of the first and second week. The third (last) assignment will
+probably be published on Monday of the fourth week; see the course schedule
+section below.
 
-Hopefully, you will receive feedback within a week after the handin deadline
-(at the latest).  You then have another week to prepare a re-submission.
-That is, **the re-submission deadline is two weeks after the original
-handin deadline, given that you receive the feedback in time**.
+### Submission and resubmission of weekly assignments
+
+*All submissions and resubmissions are to be made on Absalon!*
+
+One resubmission attempt is granted for each weekly assignment, and the
+resubmission attempt may be used to solve tasks missing in the original
+hand-in and/or to improve on the existing hand-in. Please note that the
+first upload made on Absalon *after* the original hand-in deadline will be
+considered as the resubmission hand-in!
+
+Given the high number of students this year, feedback may take up to 1.5 weeks
+to arrive -- feel free to message Anders if you are curious. The resubmission
+deadline is either **two weeks** from the original handin deadline *or* **one
+week** from the time of receiving feedback; whichever comes *last*.
+
+Extensions may be granted on weekly assignment (re-)submission deadlines --
+please ask Anders if for any reason, personal or otherwise, you need an
+extension (no need to involve Cosmin unless you wish to complain about Anders'
+decision).
 
 ### Weekly 1 (due September 12th)
 
@@ -189,60 +201,78 @@ Several potential choices for group project may be found in folder `group-projec
 * [Fast Sorting Algorithm(s) for GPUs](group-projects/sorting-on-gpu)
 * [Bfast: a landscape change detection algorithm (Remote Sensing)](group-projects/bfast)
 * [Local Volatility Calibration  (Finance)](group-projects/loc-vol-calib)
-* [HP Implementation for Fusing Tensor Contractions (Deep Learning)](group-projects/tensor-contraction): read the paper, implement the technique (some initial code is provided), and try to replicate the results of the paper. Or you can also try to implement a matrix multiplication for 16-bit floats that uses the tensor-core support. 
+* [HP Implementation for Fusing Tensor Contractions (Deep Learning)](group-projects/tensor-contraction): read the paper, implement the technique (some initial code is provided), and try to replicate the results of the paper. Or you can also try to implement a matrix multiplication for 16-bit floats that uses the tensor-core support.
 
 [Here you can find the CUB library and a simple program that utilizes CUB to sort](group-projects/cub-code)
 
 ## GPU + MultiCore Machines
 
-All students will be provided individual accounts on a multi-core and GPGPU machine that supports multi-core programming via C++/OpenMP and CUDA programming.
+All students will be provided individual accounts on a multi-core and GPGPU
+machine that supports multi-core programming via C++/OpenMP and CUDA
+programming.
 
-* The available machines are equiped with top-end A100 GPUs & two AMD EPYC 7352 24-Core CPUs (total 96 hardware threads). Login to such machines will become operational after 2nd of September.   You need to be [connected to the VPN](https://github.com/diku-dk/howto/blob/main/vpn.md) in order to access the machines.
+The available machines are equipped with top-end A100 GPUs & two AMD EPYC 7352
+24-Core CPUs (total 96 hardware threads). You should have access to these
+machines from September 2.
 
-* After you are connected to VPN, in order to access the machines you will need to login to the Hendrix/Image cluster, and then to ssh (from there) to the `hendrixfut01fl`, `hendrixfut02fl`, or `hendrixfut03fl` servers; the first and third are equipped with NVIDIA A100 GPU, on which you can run CUDA programs, and the second with an AMD GPU, on which you cannot run CUDA programs. 
+More specifically, the GPUs are located on the Futhark servers (access to which
+is obtained via the Hendrix gateway; connection guide below), which include:
+`hendrixfut01fl` or `hendrixfut03fl` servers, each of which is equipped with an
+NVIDIA A100 GPU, on which you can run CUDA programs; and `hendrixfut02fl`, which
+has an AMD GPU and hence cannot run CUDA programs (but which can run OpenCL
+binaries, e.g. compiled using Futhark).
 
-Comprehensive info on the Hendrix cluster is available [here](https://diku-dk.github.io/wiki/slurm-cluster) and [some other hints here](https://github.com/diku-dk/howto/blob/main/servers.md)
+Comprehensive info on the Hendrix cluster and how to connect is available
+[here](https://diku-dk.github.io/wiki/slurm-cluster).
 
-Of note, you should put the following in your `~/.ssh/config` (Linux/MacOS) or in `C:/Users/YOUR_WINDOWS_USER/.ssh/config` (Windows, a simple text file with no file ending!):
+### Basic GPU server connection guide
+
+This basic connection guide is subject to change and may contain errors or
+have missing information. Please ask Anders if you have trouble logging onto the
+servers, or Cosmin, if you suspect the problem is an access/permission issue.
+
+#### Step 0 -- update ssh config (one-time, optional)
+
+Add the Hendrix gateway server to your ssh config by appending below paragraph:
 
 ```
 Host hendrix
     HostName hendrixgate
-    User <kuid>
+    User <KU-id>
     StrictHostKeyChecking no
     CheckHostIP no
     UserKnownHostsFile=/dev/null
 ```
 
-Then you can ssh to hendrix
+to your ssh config file, located in either `$HOME/.ssh/config` for Linux/MacOS,
+or `C:/Users/<user>/.ssh/config` for Windows (note: a simple text file with no
+file extension). Remember to replace `<KU-id>` in line 3 with your personal
+KU-id.
+
+#### Step 1 -- connect to KU-VPN
+
+*Each time* you wish to SSH to the Hendrix cluster/gateway, you must first be
+properly connected to KU-VPN. If you get a "Name or service not known" error
+from `ssh`, then you are probably not connected to the VPN. See [this guide on
+connecting to KU-VPN](https://github.com/diku-dk/howto/blob/main/vpn.md).
+
+#### Step 2 -- connect to Hendrix gateway
+
+If you updated your ssh config as per step 0 and are properly connected to
+KU-VPN, you may SSH to the Hendrix gateway using:
 
 ```bash
 $ ssh hendrix
 ```
 
-and from there to one of the servers, for example:
+If you skipped step 0, you may need to manually supply appropriate flags to
+`ssh` on each login.
 
-```bash
-$ ssh hendrixfut03fl
-```
+##### Step 2b -- setup CUDA dev environment (one-time)
 
-<!---
-
-* Once you are connected to VPN you may ssh directly, for example, to `futharkhpa03fl.unicph.domain` with your ku-id and corresponding password, and then you probably need to modify your `.bashrc` file.  More hardware and software (installation) documentation is available [here](https://github.com/diku-dk/howto/blob/main/servers.md)
-
-
-```bash
-$ ssh -l <ku_id> futharkhpa03fl.unicph.domain
-````
-(or futharkhpa01fl.unicph.domain).
-
--->
- 
-For CUDA to work, you may need 
-
-* to run `$module load cuda`
-
-* The following may be wrong as I did not managed to login to the machines yet: and perhaps to add the following to your `$HOME/.bash_profile` or `$HOME/.bashrc` file:
+The **first time** you log onto the Hendrix gateway, you must setup the CUDA dev
+environment. To do so, permanently update your path by appending below snippet
+to your `$HOME/.bash_profile` and/or `$HOME/.bashrc` files:
 
 ```bash
 export CPATH=/usr/local/cuda/include:$CPATH
@@ -250,6 +280,33 @@ export LIBRARY_PATH=/usr/local/cuda/lib64:$LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64/$LD_LIBRARY_PATH
 export PATH=/usr/local/cuda/bin:$PATH
 ```
+
+#### Step 3 -- connect to Futhark machine on the Hendrix cluster
+
+From the Hendrix gateway shell, you may log further onto one of the Futhark
+machines using e.g.:
+
+```bash
+$ ssh hendrixfut03fl
+```
+
+Once logged onto a Futhark server, you may need to load CUDA modules using:
+
+```bash
+$ module load cuda
+```
+
+<!-- ##### Alternatively: upload slurm jobs for exclusive execution -->
+<!--  -->
+<!-- If you prefer (or need) limited-time exclusive access to a GPU -- rather than -->
+<!-- logging directly onto a Futhark server along with fellow students -- then you -->
+<!-- can submit Slurm jobs to a job queue from the Hendrix gateway(s). For a very -->
+<!-- basic guide on Slurm usage, please see [this -->
+<!-- guide](https://github.com/diku-dk/howto/blob/main/servers.md). -->
+<!--  -->
+<!-- Note that using Slurm can be tedious at first, and you risk suspension of your -->
+<!-- access if you abuse the queue system, so use at your own caution. -->
+
 
 ## Other resources
 
