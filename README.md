@@ -223,14 +223,15 @@ NVIDIA A100 GPU, on which you can run CUDA programs; and `hendrixfut02fl`, which
 has an AMD GPU and hence cannot run CUDA programs (but which can run OpenCL
 binaries, e.g. compiled using Futhark).
 
-Comprehensive info on the Hendrix cluster and how to connect is available
-[here](https://diku-dk.github.io/wiki/slurm-cluster).
 
-### Basic GPU server connection guide
+### Basic Futhark server connection guide
 
 This basic connection guide is subject to change and may contain errors or
 have missing information. Please ask Anders if you have trouble logging onto the
 servers, or Cosmin, if you suspect the problem is an access/permission issue.
+
+For more comprehensive info on the Hendrix cluster and how to connect, please
+see [this](https://diku-dk.github.io/wiki/slurm-cluster).
 
 #### Step 0 -- update ssh config (one-time, optional)
 
@@ -282,6 +283,9 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64/$LD_LIBRARY_PATH
 export PATH=/usr/local/cuda/bin:$PATH
 ```
 
+Finally, reload the affected file/s using `source $HOME/.bash_profile`
+and/or `source $HOME/.bashrc` (or simply starting a new bash session).
+
 #### Step 3 -- connect to Futhark machine on the Hendrix cluster
 
 From the Hendrix gateway shell, you may log further onto one of the Futhark
@@ -291,7 +295,8 @@ machines using e.g.:
 $ ssh hendrixfut03fl
 ```
 
-Once logged onto a Futhark server, you may need to load CUDA and Futhark modules using:
+Once logged onto a Futhark server, you may need to load CUDA and/or Futhark
+modules using:
 
 ```bash
 $ module load cuda
