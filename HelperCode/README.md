@@ -1,8 +1,8 @@
 # Helpful Hints about Cuda and Futhark Programming
 
-## Lab 1:
+## Lab 1: Simple CUDA Programming
 
-A very simple helper CUDA code is provided in [Lab-1-Cuda](HelperCode/Lab-1-Cuda). In the first lab, your task is to extend the code to execute correctly on GPUs a program that multiplies each element of an array of arbitrary size with two.
+A very simple helper CUDA code is provided in [Lab-1-Cuda](Lab-1-Cuda). In the first lab, your task is to extend the code to execute correctly on GPUs a program that multiplies each element of an array of arbitrary size with two.
 
 Another thing that is good to hear early (and often) is that, in the context of GPUs' global memory, spatial locality means, under a slight simplification, that consecutive threads access consecutive memory locations. This is refer to as "coalesced access". More exactly: consecutive threads in a warp access a set of contiguous locations in global memory during a load instruction (executed in lockstep/SIMD). A funny exercise is to change the access pattern of the write so that consecutive threads access memory with a stride greater than 16. How much is the performance affected?
 
