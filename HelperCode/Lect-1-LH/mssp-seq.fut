@@ -1,10 +1,10 @@
 -- Parallel maximum segment sum
 -- ==
--- input { [1, -2, 3, 4, -1, 5, -6, 1] }
+-- no_cuda no_opencl input { [1, -2, 3, 4, -1, 5, -6, 1] }
 -- output { 11 }
 
 --
--- compiled input @ mssp-data.in
+-- no_cuda no_opencl compiled input @ mssp-data.in
 -- output @ mssp-data.out
 
 -------
