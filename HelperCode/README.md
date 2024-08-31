@@ -8,7 +8,7 @@ Another thing that is good to hear early (and often) is that, in the context of 
 
 ## Lab 2: List Homomorphisms in Futhark
 
-A demonstration of how to integrate benchmarking and validation directly in Futhark programs is shown in [Lect-1-LH/mssp.fut](HelperCode/Lect-1-LH/mssp.fut). Go in the corresponding folder and try
+A demonstration of how to integrate benchmarking and validation directly in Futhark programs is shown in [Lect-1-LH/mssp.fut](Lect-1-LH/mssp.fut). Go in the corresponding folder and try
 
 ```bash
 $ futhark test --backend=cuda mssp.fut
