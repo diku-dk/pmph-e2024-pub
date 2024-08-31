@@ -303,7 +303,7 @@ $ module load cuda;
 $ module load futhark;
 ```
 
-Or you may add those at the end of `$HOME/.bash_profile` and/or `$HOME/.bashrc` so you do them only once.
+Or you may add those at the end of `$HOME/.bash_profile` and/or `$HOME/.bashrc` so you do not have to perform them every time.
 
 
 <!-- ##### Alternatively: upload slurm jobs for exclusive execution -->
