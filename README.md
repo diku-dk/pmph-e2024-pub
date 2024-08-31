@@ -270,7 +270,7 @@ $ ssh hendrix
 If you skipped step 0, you may need to manually supply appropriate flags to
 `ssh` on each login.
 
-##### Step 2b -- setup CUDA dev environment (one-time)
+##### Step 2b -- setup CUDA dev environment (one-time). Cosmin thinks that this step is NOT NEEDED!
 
 The **first time** you log onto the Hendrix gateway, you must setup the CUDA dev
 environment. To do so, permanently update your path by appending below snippet
@@ -299,9 +299,12 @@ Once logged onto a Futhark server, you may need to load CUDA and/or Futhark
 modules using:
 
 ```bash
-$ module load cuda
-$ module load futhark
+$ module load cuda;
+$ module load futhark;
 ```
+
+Or you may add those at the end of `$HOME/.bash_profile` and/or `$HOME/.bashrc` so you do them only once.
+
 
 <!-- ##### Alternatively: upload slurm jobs for exclusive execution -->
 <!--  -->
