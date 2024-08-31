@@ -24,9 +24,9 @@ entry mk_input (n:i64) : [20*n+10]i32 =
 --- II. Parallel Maximum Segment Sum Implementation
 -------------------------------------------------------
 
-let max (x:i32, y:i32) = i32.max x y
+def max (x:i32, y:i32) = i32.max x y
 
-let redOp (mssx, misx, mcsx, tsx)
+def redOp (mssx, misx, mcsx, tsx)
           (mssy, misy, mcsy, tsy)
         : (i32, i32, i32, i32) =
   let mss = max (mssx, max (mssy, mcsx + misy))
@@ -35,14 +35,14 @@ let redOp (mssx, misx, mcsx, tsx)
   let ts  = tsx + tsy
   in  (mss, mis, mcs, ts)
 
-let mapOp (x: i32): (i32,i32,i32,i32) =
+def mapOp (x: i32): (i32,i32,i32,i32) =
   ( max(x,0)
   , max(x,0)
   , max(x,0)
   , x
   )
 
-let msspCore (xs: []i32): i32 =
+def msspCore (xs: []i32): i32 =
   let (x, _, _, _) =
     reduce redOp (0,0,0,0) (map mapOp xs)
   in x

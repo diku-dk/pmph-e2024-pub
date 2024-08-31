@@ -22,7 +22,7 @@ Next you can try to also benchmark, by:
 $ futhark bench --backend=cuda mssp.fut
 ```
 
-If runtimes are displayed then the program also validated (in the cases for which a reference result was specified). Now try reading the `mssp.fut`, in particular w.r.t. the multiple ways of specifying the input and reference datasets directly specified inside that file (in case you did not already look).   Understanding the automatic testing procedure will probably help you in benchmarking and validating the implementation of the Longest-Satisfying-Segment Problem (LSSP), which is the subject of the first weekly. 
+If runtimes are displayed then the program also validated (in the cases for which a reference result was specified). Now try reading the code in `mssp.fut`, in particular w.r.t. the multiple ways of specifying the input and reference datasets directly specified inside that file (in case you did not already look).   Understanding the automatic testing procedure will probably help you in benchmarking and validating the implementation of the Longest-Satisfying-Segment Problem (LSSP), which is the subject of the first weekly. 
 
 Please also read the comment below function `mk_input` in `mssp.fut`. This dynamic casting of type sizes will be very useful later on, when we flatten parallelism in Futhark.
 
