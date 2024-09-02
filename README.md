@@ -230,16 +230,17 @@ This basic connection guide is subject to change and may contain errors or
 have missing information. Please ask Anders if you have trouble logging onto the
 servers, or Cosmin, if you suspect the problem is an access/permission issue.
 
-For more comprehensive info on the Hendrix cluster and how to connect, please
-see [this](https://diku-dk.github.io/wiki/slurm-cluster).
+<!--  For more comprehensive info on the Hendrix cluster and how to connect, please see [this](https://diku-dk.github.io/wiki/slurm-cluster). -->
 
 #### Step 0 -- update ssh config (one-time, optional)
 
-Add the Hendrix gateway server to your ssh config by appending below paragraph:
+<!--  Add the Hendrix gateway server to your ssh config by appending below paragraph: -->
+
+Add the Futhark server to your ssh config by appending the paragraph below
 
 ```
-Host hendrix
-    HostName hendrixgate
+Host futhark03
+    HostName hendrixfut03fl
     User <KU-id>
     StrictHostKeyChecking no
     CheckHostIP no
@@ -249,7 +250,9 @@ Host hendrix
 to your ssh config file, located in either `$HOME/.ssh/config` for Linux/MacOS,
 or `C:/Users/<user>/.ssh/config` for Windows (note: a simple text file with no
 file extension). Remember to replace `<KU-id>` in line 3 with your personal
-KU-id.
+KU-id.  
+
+You may add other such paragraphs for `hendrixfut01fl` and `hendrixfut02fl`.
 
 #### Step 1 -- connect to KU-VPN
 
@@ -257,6 +260,8 @@ KU-id.
 properly connected to KU-VPN. If you get a "Name or service not known" error
 from `ssh`, then you are probably not connected to the VPN. See [this guide on
 connecting to KU-VPN](https://github.com/diku-dk/howto/blob/main/vpn.md).
+
+<!--
 
 #### Step 2 -- connect to Hendrix gateway
 
@@ -295,8 +300,19 @@ machines using e.g.:
 $ ssh hendrixfut03fl
 ```
 
-Once logged onto a Futhark server, you may need to load CUDA and/or Futhark
-modules using:
+-->
+
+#### Step 2 -- connect to Futhark machine on the Hendrix cluster
+
+If you updated your ssh config as per step 0 and are properly connected to
+KU-VPN, you may SSH to the futhark machine using something like:
+
+```bash
+$ ssh futhark03
+```
+
+Once logged onto a Futhark server (e.g., `hendrixfut03fl`), you may need to
+load CUDA and/or Futhark modules using:
 
 ```bash
 $ module load cuda;
