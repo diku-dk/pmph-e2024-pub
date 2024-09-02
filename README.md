@@ -279,7 +279,7 @@ to your `$HOME/.bash_profile` and/or `$HOME/.bashrc` files:
 ```bash
 export CPATH=/usr/local/cuda/include:$CPATH
 export LIBRARY_PATH=/usr/local/cuda/lib64:$LIBRARY_PATH
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64/$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 export PATH=/usr/local/cuda/bin:$PATH
 ```
 
