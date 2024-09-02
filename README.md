@@ -216,8 +216,9 @@ The available machines are equipped with top-end A100 GPUs & two AMD EPYC 7352
 24-Core CPUs (total 96 hardware threads). You should have access to these
 machines from September 2.
 
-More specifically, the GPUs are located on the Futhark servers (access to which
-is obtained via the Hendrix gateway; connection guide below), which include:
+More specifically, the GPUs are located on the Futhark servers,
+<!-- (access to which is obtained via the Hendrix gateway; connection guide below), -->
+which include:
 `hendrixfut01fl` or `hendrixfut03fl` servers, each of which is equipped with an
 NVIDIA A100 GPU, on which you can run CUDA programs; and `hendrixfut02fl`, which
 has an AMD GPU and hence cannot run CUDA programs (but which can run OpenCL
