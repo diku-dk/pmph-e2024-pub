@@ -15,12 +15,12 @@
 --   ] 
 -- }
 --
--- compiled random input { [16777216]i32 } auto output
+-- compiled random input { [16777216]i32 }
 
--- run with:
+-- for example, run with:
 --     $ futhark bench --backend=cuda sgm-scan.fut -r 25 
 -- or after compiling with something like:
---     $ futhark dataset --i32-bounds=-100:100 -g [16777216]i32 | ./sgm-scan -r 2 -t /dev/stderr > /dev/null
+--     $ futhark dataset --i32-bounds=-100:100 -g [16777216]i32 | ./sgm-scan -r 5 -t /dev/stderr -n
 
 let segmented_scan [n] 't (op: t -> t -> t) (ne: t)
                           (flags: [n]bool) (arr: [n]t) : [n]t =
