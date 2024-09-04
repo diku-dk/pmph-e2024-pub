@@ -175,7 +175,7 @@ please ask Anders if for any reason, personal or otherwise, you need an
 extension (no need to involve Cosmin unless you wish to complain about Anders'
 decision).
 
-### Weekly 1 (due September 12th)
+### Weekly 1 (due September 11th)
 
 * [Assignment text](weeklies/weekly-1/assignment1.asciidoc)
 * [Code handin](weeklies/weekly-1/w1-code-handin.tar.gz)
