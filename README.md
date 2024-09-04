@@ -16,7 +16,7 @@ can concentrate on project work (to be announced).
 
 [Course Catalog Web Page](https://kurser.ku.dk/course/ndak14008u/2024-2025)
 
-### Lectures (zoom links will be posted on Absalon):
+### Lectures:
 
 * Monday    13:00 - 15:00 (aud - NBB 2.0.G.064/070, Jagtvej 155)
 * Wednesday 10:00 - 12:00 (aud - NBB 2.0.G.064/070, Jagtvej 155)
