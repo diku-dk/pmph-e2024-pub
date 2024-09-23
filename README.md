@@ -185,7 +185,7 @@ decision).
 * [Assignment text](weeklies/weekly-2/assignment2.asciidoc)
 * [Code handout](weeklies/weekly-2/w2-code-handin.tar.gz)
 
-### Weekly 3+4 (due October 6th) -- this is a bigger assignment counting as two assignments
+### Weekly 3+4 (due October 7th) -- this is a bigger assignment counting as two assignments
 
 * [Assignment text](weeklies/weekly-3-4/assignment3-4.asciidoc)
 * [Code handout](weeklies/weekly-3-4/w3-code-handin.tar.gz)
