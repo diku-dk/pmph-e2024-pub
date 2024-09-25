@@ -120,7 +120,7 @@ the lab sessions.
 | 18/09 |  | No new weekly assignment this week; the third will be published next week | |
 | 23/09 | 13:00-15:00 | [Demonstrating Simple Techniques for Optimizing Locality](slides/L6-locality.pdf) | Chapter 5 and 6 of Lecture Notes |
 | 23/09 | 15:00-17:00 | [**Assignment 3+4 handout**](weeklies/weekly-3-4/) | helping with the weekly assignments. |
-| 25/09 | 10:00-12:00 | [Optimizing Locality same idea in other words: Nearest Neighbor, and again Matrix Multiplication and Transposition](slides/L5-LoopParI.pdf) | Chapters 5 and 6 of lecture Notes |
+| 25/09 | 10:00-12:00 | [Optimizing Locality Continuation](slides/L6-locality.pdf); [Optimizing Locality same idea in other words: Nearest Neighbor, and again Matrix Multiplication and Transposition](slides/L5-LoopParI.pdf) | Chapters 5 and 6 of lecture Notes |
 | 25/09 | 13:00-15:00 | Lab: discussing the third assignment | helping with the weekly assignments.
 | 30/09 | 13:00-15:00 | [Memory Hierarchy, Bus-Based Coherency Protocols (HWD)](slides/L7-MemIntro.pdf) | Chapter 4 and 5 of "Parallel Computer Organization and Design" Book |
 | 30/09 | 15:00-17:00 | Lab: [**Presenting Possible Group Projects**](group-projects/) | discussing group projects, helping with weekly assignments |
