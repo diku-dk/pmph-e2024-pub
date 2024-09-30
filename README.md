@@ -197,14 +197,13 @@ Several potential choices for group project may be found in folder `group-projec
 
 * **You are free to propose your own project, for example from the machine learning field, but please discuss it first with Cosmin, to make sure it is a relevant project, i.e., on which you can apply some of the techniques/reasoning that we have studied in PMPH.**
 * [Single Pass Scan in Cuda (basic block of parallel programming)](group-projects/single-pass-scan)
-* [GPU Implementation of Linear Recurrences](group-projects/linear-rec)
 * [Futhark or Cuda implementation for the Rank-K Search Problem](group-projects/rank-search-k)
 * [Fast Sorting Algorithm(s) for GPUs](group-projects/sorting-on-gpu)
 * [Bfast: a landscape change detection algorithm (Remote Sensing)](group-projects/bfast)
 * [Local Volatility Calibration  (Finance)](group-projects/loc-vol-calib)
 * [HP Implementation for Fusing Tensor Contractions (Deep Learning)](group-projects/tensor-contraction): read the paper, implement the technique (some initial code is provided), and try to replicate the results of the paper. Or you can also try to implement a matrix multiplication for 16-bit floats that uses the tensor-core support.
 
-[Here you can find the CUB library and a simple program that utilizes CUB to sort](group-projects/cub-code)
+[Here you can find the CUB library and a simple program that utilizes CUB to sort](group-projects/cub-code-radixsort)
 
 ## GPU + MultiCore Machines
 
