@@ -136,7 +136,7 @@ the lab sessions.
 | 16/10 | 13:00-15:00 | Autumn break (no lab) |
 | 21/10 | 13:00-15:00 | [Demonstrating by Exercises the Coherency Protocols and Interconnect material](hwd-exercises/hwd-coherence-in-exercises.pdf) | |
 | 21/10 | 15:00-17:00 | Lab: Helping with group project and weeklies | |
-| 23/10 | 10:00-12:00 | [Inspector-Executor Techniques for Locality Optimizations (SFT)](slides/L8-LocOfRef.pdf) | [Various scientific papers](material/Opt-Loc-Ref) |
+| 23/10 | 10:00-12:00 | [Inspector-Executor Techniques for Locality Optimizations (SFT)](slides/L8-LocOfRef.pdf) | [Various scientific papers](facultative-material/Opt-Loc-Ref) |
 | 23/10 | 13:00-15:00 | Lab: help with group project, weeklies |
 | 28/10 | 13:00-15:00 | Lecture: helping with group project and weeklies | you may read Tomasulo Algorithm (HWD) from Chapter 3 of "Parallel Computer Organization and Design" Book; [also on slides](slides/L9-OoOproc.pdf) |
 | 28/10 | 15:00-17:00 | Lab: Helping with group project, weeklies | |
