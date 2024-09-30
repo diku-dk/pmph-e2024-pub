@@ -1,0 +1,8 @@
+Sorting:
+
+https://dl.acm.org/doi/pdf/10.1145/1854273.1854344
+
+https://developer.download.nvidia.com/video/gputechconf/gtc/2020/presentations/s21572-a-faster-radix-sort-implementation.pdf
+
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5161005
+
