@@ -122,19 +122,19 @@ the lab sessions.
 | 23/09 | 15:00-17:00 | [**Assignment 3+4 handout**](weeklies/weekly-3-4/) | helping with the weekly assignments. |
 | 25/09 | 10:00-12:00 | [Optimizing Locality Continuation](slides/L6-locality.pdf); [Optimizing Locality same idea in other words: Nearest Neighbor, and again Matrix Multiplication and Transposition](slides/L5-LoopParI.pdf) | Chapters 5 and 6 of lecture Notes |
 | 25/09 | 13:00-15:00 | Lab: discussing the third assignment | helping with the weekly assignments.
-| 30/09 | 13:00-15:00 | [Memory Hierarchy, Bus-Based Coherency Protocols (HWD)](slides/L7-MemIntro.pdf) | Chapter 4 and 5 of "Parallel Computer Organization and Design" Book |
+| 30/09 | 13:00-15:00 | helping with assignments | due to still not having my voice back
 | 30/09 | 15:00-17:00 | Lab: [**Presenting Possible Group Projects**](group-projects/) | discussing group projects, helping with weekly assignments |
-| 02/10 | 10:00-12:00 | HWD: [Scalable Coherence Protocols](slides/L8-Interconnect.pdf) | Chapters 5 and 6 of "Parallel Computer Organization and Design" Book |
+| 02/10 | 10:00-12:00 | [Memory Hierarchy, Bus-Based Coherency Protocols (HWD)](slides/L7-MemIntro.pdf) | Chapter 4 and 5 of "Parallel Computer Organization and Design" Book |
 | 02/10 | 13:00-15:00 | Lab: [**Presenting Possible Group Projects**](group-projects/) | helping with weekly assignments, discussing group projects.
-| 07/10 | 13:00-15:00 | HWD: [Scalable Coherence Protocols, Scalable Interconect (HWD)](slides/L8-Interconnect.pdf) [Exercises](hwd-exercises/hwd-coherence-in-exercises.pdf)| Chapters 5 and 6 of "Parallel Computer Organization and Design" Book |
+| 07/10 | 13:00-15:00 | HWD: [Scalable Coherence Protocols](slides/L8-Interconnect.pdf) | Chapters 5 and 6 of "Parallel Computer Organization and Design" Book |
 | 07/10 | 15:00-17:00 | Lab: helping with weekly assignments and project |  |
-| 09/10 | 10:00-12:00 | [Demonstrating by Exercises the Coherency Protocols and Interconnect material](hwd-exercises/hwd-coherence-in-exercises.pdf) | |
+| 09/10 | 10:00-12:00 | HWD: [Scalable Coherence Protocols, Scalable Interconect (HWD)](slides/L8-Interconnect.pdf) [Exercises](hwd-exercises/hwd-coherence-in-exercises.pdf)| Chapters 5 and 6 of "Parallel Computer Organization and Design" Book |
 | 09/10 | 13:00-15:00 | | helping with weeklies and project
 | 14/10 | 13:00-15:00 | Autumn break (no lecture) | |
 | 14/10 | 15:00-17:00 | Autumn break (no lab) | |
 | 16/10 | 10:00-12:00 | Autumn break (no lecture) | |
 | 16/10 | 13:00-15:00 | Autumn break (no lab) |
-| 21/10 | 13:00-15:00 | No lecture | Upon request, may show up and help with group project/weeklies |
+| 21/10 | 13:00-15:00 | [Demonstrating by Exercises the Coherency Protocols and Interconnect material](hwd-exercises/hwd-coherence-in-exercises.pdf) | |
 | 21/10 | 15:00-17:00 | Lab: Helping with group project and weeklies | |
 | 23/10 | 10:00-12:00 | [Inspector-Executor Techniques for Locality Optimizations (SFT)](slides/L8-LocOfRef.pdf) | [Various scientific papers](material/Opt-Loc-Ref) |
 | 23/10 | 13:00-15:00 | Lab: help with group project, weeklies |
