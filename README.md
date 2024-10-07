@@ -128,7 +128,7 @@ the lab sessions.
 | 02/10 | 13:00-15:00 | Lab: [**Presenting Possible Group Projects**](group-projects/) | helping with weekly assignments, discussing group projects.
 | 07/10 | 13:00-15:00 | HWD: [Bus-Based Coherency Protocols](slides/L7-MemIntro.pdf), and [Scalable Coherence Protocols](slides/L8-Interconnect.pdf) | Chapters 5 and 6 of "Parallel Computer Organization and Design" Book |
 | 07/10 | 15:00-17:00 | Lab: helping with weekly assignments and project |  |
-| 09/10 | 10:00-12:00 | HWD: [Scalable Coherence Protocols, Scalable Interconect (HWD)](slides/L8-Interconnect.pdf) [Exercises](hwd-exercises/hwd-coherence-in-exercises.pdf)| Chapters 5 and 6 of "Parallel Computer Organization and Design" Book |
+| 09/10 | 10:00-12:00 | HWD: [Scalable Coherence Protocols, Scalable Interconect (HWD)](slides/L8-Interconnect.pdf); if time permits [Exercises related to cache coherency and interconnect](hwd-exercises/hwd-coherence-in-exercises.pdf)| Chapters 5 and 6 of "Parallel Computer Organization and Design" Book |
 | 09/10 | 13:00-15:00 | | helping with weeklies and project
 | 14/10 | 13:00-15:00 | Autumn break (no lecture) | |
 | 14/10 | 15:00-17:00 | Autumn break (no lab) | |
